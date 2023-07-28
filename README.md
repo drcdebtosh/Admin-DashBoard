@@ -1,6 +1,5 @@
 # Admin-DashBoard
-![Admin Dashboard](dashboard-Screenshot001.png)
-
+![Screenshot 001](https://github.com/drcdebtosh/Admin-DashBoard/assets/107189461/692ce35f-9243-46fe-90e5-91231b342bfc)
 
 # Overview
 This repository contains the frontend code for an Admin Dashboard project. The purpose of this project is to create a user-friendly interface for managing various aspects of an application or system from an administrative perspective. The dashboard provides data visualization, user management, and other administrative features.
