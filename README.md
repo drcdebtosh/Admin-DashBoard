@@ -1,5 +1,5 @@
 # Admin-DashBoard
-![Alt Text](images/screenshot001.png)
+![Alt Text](images/Screenshot001.png)
 
 # Overview
 This repository contains the frontend code for an Admin Dashboard project. The purpose of this project is to create a user-friendly interface for managing various aspects of an application or system from an administrative perspective. The dashboard provides data visualization, user management, and other administrative features.
