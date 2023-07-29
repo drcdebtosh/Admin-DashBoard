@@ -185,24 +185,33 @@ aside .sidebar a:last-child{
     width: 100%;
 }
 
-aside .sidebar a.active{
+
+
+/* Active Button Styles */
+
+
+aside .sidebar a.active1{
     width: 100%;
     color: var(--color-primary);
     background-color: var(--color-light);
     margin-left: 0;
 }
 
-aside .sidebar a.active::before{
+aside .sidebar a.active1::before{
     content: '';
     width: 6px;
     height: 18px;
     background-color: var(--color-primary);
 }
 
-aside .sidebar a.active span{
+aside .sidebar a.active1 span{
     color: var(--color-primary);
     margin-left: calc(1rem - 3px);
 }
+
+
+
+/* Active Button Styles ends */
 
 aside .sidebar a:hover{
     color: var(--color-primary);
@@ -537,6 +546,14 @@ main .recent-orders a{
     display: flex;
     align-items: center;
     gap: 0.6rem;
+}
+
+.footer{
+    padding:.4rem;
+    text-align: center;
+    font-size:.8rem;
+    opacity:.5;
+
 }
 
 @media screen and (max-width: 1200px) {

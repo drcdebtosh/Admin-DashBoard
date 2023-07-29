@@ -3,6 +3,10 @@ const menuBtn = document.getElementById('menu-btn');
 const closeBtn = document.getElementById('close-btn');
 
 const darkMode = document.querySelector('.dark-mode');
+const menuLinks = document.querySelectorAll('.menu-link');
+
+
+
 
 menuBtn.addEventListener('click', () => {
     sideMenu.style.display = 'block';
@@ -18,6 +22,22 @@ darkMode.addEventListener('click', () => {
     darkMode.querySelector('span:nth-child(2)').classList.toggle('active');
 })
 
+  // Add a click event listener to each link
+  menuLinks.forEach(link => {
+    link.addEventListener('click', (event) => {
+      event.preventDefault(); // Prevents the link from navigating
+
+      // Remove the "active" class from all links
+      menuLinks.forEach(item => {
+        item.classList.remove('active1');
+      });
+
+      // Add the "active" class to the clicked link
+      link.classList.add('active1');
+    });
+  });
+
+// Orders 
 
 Orders.forEach(order => {
     const tr = document.createElement('tr');
